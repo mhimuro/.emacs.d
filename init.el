@@ -3,12 +3,17 @@
 (require 'counsel)
 (require 'company)
 (require 'company-ansible)
+(require 'markdown-mode)
+(require 'markdown-preview-mode)
 (require 'package)
 (require 'undo-fu)
 (require 'whitespace)
 (require 'yaml-mode)
 (require 'yasnippet)
 (require 'yasnippet-snippets)
+
+;; Other Require
+; $ brew install markdown
 
 ;; Package
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
