@@ -1,0 +1,5 @@
+# only ignore the elpa file in the current directory, not subdir/elpa
+/elpa
+
+# ignore all .data files
+/*.data
