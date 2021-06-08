@@ -46,7 +46,7 @@
 (global-set-key (kbd "C-?") 'undo-fu-only-redo)
 
 ;; Hyper Key
-(setq mac-right-command-modifier 'hyper)
+;; (setq mac-right-command-modifier 'hyper)
 
 ;; Disable backup file
 (setq make-backup-files nil)
