@@ -6,7 +6,7 @@
 (require 'markdown-mode)
 (require 'markdown-preview-mode)
 (require 'package)
-(require 'undo-fu)
+(require 'undo-tree)
 (require 'whitespace)
 (require 'yaml-mode)
 (require 'yasnippet)
@@ -26,6 +26,7 @@
 (global-auto-revert-mode t)
 (global-font-lock-mode t)
 (global-linum-mode t)
+(global-undo-tree-mode)
 (global-whitespace-mode t)
 (ivy-mode t)
 (show-paren-mode t)
@@ -41,9 +42,6 @@
 ;; Short cut
 ;;;; backspace
 (keyboard-translate ?\C-h ?\C-?)
-
-;;;; Undo/Redo
-(global-set-key (kbd "C-?") 'undo-fu-only-redo)
 
 ;; Hyper Key
 ;; (setq mac-right-command-modifier 'hyper)
